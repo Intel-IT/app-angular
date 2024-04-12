@@ -1,0 +1,18 @@
+@use '@angular/material' as mat;
+@use './palettes-color' as palettes;
+
+@include mat.core();
+
+$app-palette-default-primary: mat.define-palette(palettes.$blue-1-palette, 800, 600, 900);
+$app-palette-default-accent: mat.define-palette(palettes.$green-1-palette, 600, 400, 800);
+$app-palette-default-warn: mat.define-palette(palettes.$red-1-palette, 900);
+
+$app-palette-dark-default-primary: mat.define-palette(palettes.$blue-1-palette, 200);
+$app-palette-dark-default-accent: mat.define-palette(palettes.$green-1-palette, 200);
+$app-palette-dark-default-warn: mat.define-palette(palettes.$red-1-palette, dark);
+$app-palette-dark-2-default-warn: mat.define-palette(palettes.$red-1-palette, 200);
+
+
+$app-theme-light-default: mat.define-light-theme((color: (primary: $app-palette-default-primary, accent: $app-palette-default-accent, warn: $app-palette-default-warn), typography: mat.define-typography-config(), density: 0));
+$app-theme-dark-default: mat.define-dark-theme((color: (primary: $app-palette-dark-default-primary, accent: $app-palette-dark-default-accent, warn: $app-palette-dark-default-warn), typography: mat.define-typography-config(), density: 0));
+$app-theme-dark-2-default: mat.define-dark-theme((color: (primary: $app-palette-dark-default-primary, accent: $app-palette-dark-default-accent, warn: $app-palette-dark-2-default-warn), typography: mat.define-typography-config(), density: 0));

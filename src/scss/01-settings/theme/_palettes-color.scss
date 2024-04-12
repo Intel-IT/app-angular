@@ -1,0 +1,111 @@
+//temas de angular basados en los temas de cibercont
+//https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+@use '@angular/material' as mat;
+@use 'sass:map';
+
+
+
+
+$dark-primary-text-a: rgba(black, 0.87);
+$light-primary-text-a: white;
+
+
+// 800 default
+$blue-1-palette: (
+    50: #e1f4fe,
+    100: #b3e3fb,
+    200: #82d1f8,
+    300: #52bff4,
+    400: #31b1f2,
+    500: #1da4ef,
+    600: #1c96e0,
+    700: #1a83cc,
+    800: #1772b8,
+    900: #135296,
+    contrast: (50: $dark-primary-text-a,
+        100: $dark-primary-text-a,
+        200: $dark-primary-text-a,
+        300: $dark-primary-text-a,
+        400: $light-primary-text-a,
+        500: $light-primary-text-a,
+        600: $light-primary-text-a,
+        700: $light-primary-text-a,
+        800: $light-primary-text-a,
+        900: $light-primary-text-a, )
+);
+
+//700 default
+$blue-2-palette: (
+    50: #e1f5fd,
+    100: #b3e6f9,
+    200: #82d5f5,
+    300: #53c4f0,
+    400: #30b7ee,
+    500: #0fabec,
+    600: #089ddd,
+    700: #008aca,
+    800: #0079b6,
+    900: #005995,
+    contrast: (50: $dark-primary-text-a,
+        100: $dark-primary-text-a,
+        200: $dark-primary-text-a,
+        300: $dark-primary-text-a,
+        400: $light-primary-text-a,
+        500: $light-primary-text-a,
+        600: $light-primary-text-a,
+        700: $light-primary-text-a,
+        800: $light-primary-text-a,
+        900: $light-primary-text-a,
+    )
+);
+
+//600 default
+$green-1-palette: (
+    50: #e6f6ee,
+    100: #c4e9d5,
+    200: #9ddbbb,
+    300: #74cea0,
+    400: #52c38b,
+    500: #2ab877,
+    600: #23a86c,
+    700: #1b955f,
+    800: #168453,
+    900: #0e643e,
+    contrast: (50: $dark-primary-text-a,
+        100: $dark-primary-text-a,
+        200: $dark-primary-text-a,
+        300: $dark-primary-text-a,
+        400: $light-primary-text-a,
+        500: $light-primary-text-a,
+        600: $light-primary-text-a,
+        700: $light-primary-text-a,
+        800: $light-primary-text-a,
+        900: $light-primary-text-a)
+);
+
+
+//900 default
+$red-1-palette: (
+    dark:#cf6679,
+    50: #fdeaee,
+    100: #fbcad2,
+    200: #ea959b,
+    300: #de6c74,
+    400: #e84853,
+    500: #ed323b,
+    600: #de2839,
+    700: #cc1d33,
+    800: #bf152c,
+    900: #b00020,
+    contrast: (dark: $dark-primary-text-a,
+        50: $dark-primary-text-a,
+        100: $dark-primary-text-a,
+        200: $dark-primary-text-a,
+        300: $dark-primary-text-a,
+        400: $light-primary-text-a,
+        500: $light-primary-text-a,
+        600: $light-primary-text-a,
+        700: $light-primary-text-a,
+        800: $light-primary-text-a,
+        900: $light-primary-text-a)
+);

@@ -1,0 +1,17 @@
+@use '../../01-settings' as settings;
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+@include mat.all-component-themes(settings.$app-theme-light-default);
+
+.o-system-theme {
+    @media (prefers-color-scheme: dark) {
+        @include mat.all-component-colors(settings.$app-theme-dark-2-default);
+    }
+}
+
+.o-dark-theme {
+    @include mat.all-component-colors(settings.$app-theme-dark-default);
+}
+
