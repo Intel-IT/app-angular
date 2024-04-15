@@ -1,6 +1,3 @@
-The background color is `#ffffff` for light mode and `#0969DA` for dark mode.
-
-
 # AppAngularV1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
