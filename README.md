@@ -7,15 +7,11 @@
 
 
 
+> [Metodologias con GIT](https://github.com/Intel-IT/app-angular/wiki/Metodologias-con-GIT)
+> 
+> [Buenas practicas al crear un Pull RequesT](https://github.com/Intel-IT/app-angular/wiki/Buenas-practicas-al-crear-un-Pull-RequesT) 
 
 
-## Metodologias
-
-- [Git --- Git flow](https://github.com/Skeyss/app-angular/wiki/Git-flow) 
-
-- Add more integrations
-
-pruebas de pasos
 
 
 
