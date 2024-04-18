@@ -4,12 +4,10 @@
 
 # app-angular   
 
+Estructura, reglas y metodologías en el desarrollo de una aplicación en angular
 
 
-
-> [Metodologias con GIT](https://github.com/Intel-IT/app-angular/wiki/Metodologias-con-GIT)
-> 
-> [Buenas practicas al crear un Pull RequesT](https://github.com/Intel-IT/app-angular/wiki/Buenas-practicas-al-crear-un-Pull-RequesT) 
+> [Wiki](https://github.com/Intel-IT/app-angular/wiki)
 
 
 
